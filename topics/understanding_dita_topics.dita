@@ -5,7 +5,7 @@
     <shortdesc>It is important to understand the role that a DITA topic plays in a DITA
         project.</shortdesc>
     <conbody>
-        <p>A DITA topic is not associated with a single published document. It is a separate entity
+        <p>A DITA topic is not associated with multiple published documents. It is a separate entity
             that can potentially be included in many different books, help systems, or websites.
             Therefore, when you write a DITA topic you are not writing a book, a help system, or a
             website. You are writing an individual piece of content. This affects how you approach
