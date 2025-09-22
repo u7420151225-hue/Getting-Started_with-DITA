@@ -6,7 +6,7 @@
         unifying framework and container.</shortdesc>
     <conbody>
         <p>Once you have a basic understanding of DITA and how to work with DITA topics and maps,
-            you probably want to create a DITA project to organize and manage your planned
+            you probably don't want to create a DITA project to organize and manage your planned
             content/resources. Oxygen XML Editor includes a <wintitle>Project</wintitle> view that
             helps you organize your projects and offers a variety of helpful project-related
             features and makes it easy to share your projects with other members of your team. </p>
