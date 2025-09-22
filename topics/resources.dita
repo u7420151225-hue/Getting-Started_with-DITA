@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="resources">
+    <title>Resources</title>
+    <shortdesc>Other resources which help you getting started with DITA and Oxygen XML
+        Editor.</shortdesc>
+    <conbody>
+        <p>For more information about getting started with DITA and how to work with DITA in Oxygen
+            XML Editor, see our compiled collection of DITA-related webinars that are meant to help
+            you with your journey into working with DITA: <xref
+                href="https://www.oxygenxml.com/working_with_dita_in_oxygen.html" format="html"
+                scope="external">Webinars: Working with DITA in Oxygen</xref></p>
+    </conbody>
+</concept>

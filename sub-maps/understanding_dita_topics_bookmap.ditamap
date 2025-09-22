@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Understanding DITA Topics</mainbooktitle>
+    </booktitle>
+    <chapter href="../stem-topics/understanding_dita_topics_stemtopic.dita">
+        <topicref href="../topics/understanding_dita_topics.dita"/>
+    </chapter>
+    <reltable>
+        <title>Stem_relation</title>
+        <relrow>
+            <relcell>
+                <topicref href="../stem-topics/understanding_dita_topics_stemtopic.dita"
+                    linking="sourceonly"/>
+            </relcell>
+            <relcell>
+                <topicref href="../topics/understanding_dita_topics.dita" linking="targetonly"/>
+            </relcell>
+        </relrow>
+    </reltable>
+</bookmap>

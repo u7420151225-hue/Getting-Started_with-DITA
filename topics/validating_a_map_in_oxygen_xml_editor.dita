@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="validating_a_map_in_oxygen_xml_editor">
+    <title>Validating a map in Oxygen XML Editor</title>
+    <shortdesc>Step by step: how to check if your map is made correctly before
+        publishing.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Just as it is with your individual topics, it is important to <xref
+                    href="https://www.oxygenxml.com/doc/versions/27.0/ug-editor/topics/dita-map-validate.html"
+                    format="html" scope="external">validate your maps</xref>. Oxygen XML Editor
+                provides a validation function for DITA maps that does more than simply validating
+                that the XML is well-formed. It also does the following:<ul id="ul_rlr_n4q_y2c">
+                    <li>Validates all of the relationships defined in the maps.</li>
+                    <li>Validates all of the files that are included in the map.</li>
+                    <li>Validates all of the links that are expressed in the files.</li>
+                </ul></p>
+            <p>Validating the map that describes your entire publication validates all the files
+                that make up the publication and all of the relationships between them.</p>
+            <p>To validate a map:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol><image
+                            href="../images/validating_a_map_in_oxygen_xml_editor.jpg"
+                            id="image_kx1_dpq_y2c"/>Validate and Check for Completeness</uicontrol>
+                    button in the <wintitle>DITA Maps Manager</wintitle> view.</cmd>
+                <stepresult>This opens the <wintitle>DITA Map Completeness Check</wintitle> dialog
+                    box.</stepresult>
+            </step>
+            <step>
+                <cmd>Select any of the various options you want to check.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Check</uicontrol> to run the validation process.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

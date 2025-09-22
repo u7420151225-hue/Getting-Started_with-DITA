@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="addind_submaps_in_oxygen_xml_editor">
+    <title>Addind Submaps in Oxygen XML Editor</title>
+    <shortdesc>Step by step: how to include a map into another map.</shortdesc>
+    <taskbody>
+        <context>
+            <p>If you have a large set of information, such as a long book or extensive help system,
+                a single map can become long and difficult to manage. To make it easier to manage,
+                you can <xref
+                    href="https://www.oxygenxml.com/doc/versions/27.0/ug-editor/topics/eppo-submaps.html#eppo-submaps"
+                    format="html" scope="external">break up the content into smaller submaps</xref>.
+                A submap might represent a chapter of a book, a section of a user manual, or a page
+                on a website. To build a publication out of these smaller maps, you must add them to
+                a map that represents the overall publication. </p>
+            <p>To add a child map to the map:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Right-click the parent DITA map in the <uicontrol>DITA Maps Manager</uicontrol>
+                    view and choose <menucascade>
+                        <uicontrol>Append child</uicontrol>
+                        <uicontrol>Map reference</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>This opens the <wintitle>Insert Reference</wintitle> dialog box with all
+                    the required fields already filled in for you.</stepresult>
+            </step>
+            <step>
+                <cmd>You can fill in additional information in the various tabs in this dialog box
+                    or add it to the map later.</cmd>
+            </step>
+            <step>
+                <cmd>Select <uicontrol>Insert and close</uicontrol> to add a reference to your
+                    submap in the main map.</cmd>
+            </step>
+            <step>
+                <cmd>Save the main DITA map</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

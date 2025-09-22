@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="adding_new_topics_to_a_map_in_oxygen_xml_editor">
+    <title>Adding New Topics to a Map in Oxygen XML Editor</title>
+    <shortdesc>Step by step: as you add topics to your map, you may want to create a new topic as a
+        child or sibling of another topic. This is usually done at the map level.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To add a new topic to a map, follow these steps:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>In the <wintitle>DITA Maps Manager</wintitle> right-click the node in the
+                    current map where you want to add the new topic.</cmd>
+            </step>
+            <step>
+                <cmd>Select one of the following actions:</cmd>
+                <info>
+                    <ol>
+                        <li><menucascade>
+                                <uicontrol>Append child</uicontrol>
+                                <uicontrol>New</uicontrol>
+                            </menucascade>Select this action to insert the new topic as a child of
+                            the selected node. This action opens a <wintitle>New file dialog
+                                box</wintitle> that allows you to select the type of document and
+                            assists you with naming it. After you have configured your new topic,
+                            click <uicontrol>Create</uicontrol>.</li>
+                        <li><menucascade>
+                                <uicontrol>Insert Before</uicontrol>
+                                <uicontrol>New</uicontrol>
+                            </menucascade>Select this action to insert the new topic as a sibling to
+                            the current node, before it. This action opens a <wintitle>New file
+                                dialog box</wintitle> that allows you to select the type of document
+                            and assists you with naming it. After you have configured your new
+                            topic, click <uicontrol>Create</uicontrol>.</li>
+                        <li><menucascade>
+                                <uicontrol>Insert After</uicontrol>
+                                <uicontrol>New</uicontrol>
+                            </menucascade>Select this action to insert the new topic as a sibling to
+                            the current node, after it. This action opens a <wintitle>New file
+                                dialog box</wintitle> that allows you to select the type of document
+                            and assists you with naming it. After you have configured your new
+                            topic, click <uicontrol>Create</uicontrol>.</li>
+                        <li><uicontrol>Duplicate</uicontrol> Select this action to create a copy of
+                            the selected topic and insert it as a sibling. This action opens a
+                            dialog box that allows you to choose the file name and location for the
+                            newly created copy of the topic. After you have selected the name and
+                            path for your new topic, click <uicontrol>OK</uicontrol>.<note
+                                id="note_y2d_hcn_x2c">The value of the root ID is generated taking
+                                the <cmdname>Use the file name as the value of the root ID
+                                    attribute</cmdname> option from the <menucascade>
+                                    <uicontrol>DITA</uicontrol>
+                                    <uicontrol>Topics</uicontrol>
+                                </menucascade>preference page into account. When the option is
+                                deselected, a unique ID is generated. </note></li>
+                    </ol>
+                </info>
+                <stepresult>The new topic is now referenced (as a <apiname>topicref</apiname>) in
+                    the DITA map at the location where you inserted it and the new topic is opened
+                    in the editor.</stepresult>
+            </step>
+            <step>
+                <cmd>Save the DITA map</cmd>
+                    <info>
+                    <p>You can also change the order and nesting of topics in the <wintitle>DITA
+                            Maps Manager</wintitle> view by doing either of the following:<ol>
+                            <li>Select the topic to move while holding down the Alt key and use the
+                                arrow keys to move it around.</li>
+                            <li>Use the mouse to drag and drop the topic to the desired
+                                location.</li>
+                        </ol></p>
+                    <p>The way your parent and child topics are organized in any particular output
+                        depends on both the configuration of those topics in the map and the rules
+                        of the output transformation that is applied to them. Do not assume that
+                        your topics must have the same organization for all output types. The map
+                        defines the organization of the topics, not the topics themselves. It is
+                        possible to create a variety of maps, each with different organization and
+                        configuration options to produce a variety of outputs.</p>
+                    </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

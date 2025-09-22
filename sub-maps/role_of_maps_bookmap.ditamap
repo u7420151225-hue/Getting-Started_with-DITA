@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Role of Maps</mainbooktitle>
+    </booktitle>
+    <chapter href="../stem-topics/role_of_maps_stemtopic.dita">
+        <topicref href="../topics/role_of_maps.dita"/>
+    </chapter>
+    <reltable>
+        <title>Stem relation</title>
+        <relrow>
+            <relcell>
+                <topicref href="../stem-topics/role_of_maps_stemtopic.dita" linking="sourceonly"/>
+            </relcell>
+            <relcell>
+                <topicref href="../topics/role_of_maps.dita" linking="targetonly"/>
+            </relcell>
+        </relrow>
+    </reltable>
+</bookmap>

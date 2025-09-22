@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="tip">
+    <title>Tip</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>There are several sample project templates available for DITA users that can be used as a
+            starting point or for inspiration. These sample project templates are found in the <menucascade>
+                <uicontrol>Framework templates</uicontrol>
+                <uicontrol>DITA</uicontrol>
+            </menucascade>folder in the <wintitle>New Project</wintitle>wizard:<ul
+                id="ul_pdd_ywq_y2c">
+                <li><wintitle>Sample DITA Project</wintitle><equation-figure>
+                        <desc>This is a basic DITA project meant to help new users see how a DITA
+                            project is structured.</desc>
+                    </equation-figure></li>
+                <li><wintitle>Startup DITA Project</wintitle><equation-figure>
+                        <desc>This is a startup DITA project that imposes a custom set of options
+                            (e.g. spell check settings and custom dictionaries), a custom DITA
+                            framework extension (e.g. custom new file templates. custom actions,
+                            custom CSS used for visual editing) and a folder structure for a DITA
+                            project according to best practices. Once created, the project contains
+                            a <filepath>Readme.html</filepath>file that explains all customizations
+                            and their benefits. If you plan to start your own DITA project using a
+                            version control system (such as Git), you can use this startup DITA
+                            project template to customize various aspects of DITA editing and share
+                            them with your team.</desc>
+                    </equation-figure></li>
+            </ul></p>
+    </conbody>
+</concept>

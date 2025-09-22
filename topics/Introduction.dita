@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Introduction">
+    <title><b><b>Getting Started with DITA</b></b>
+    </title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>The information in this topic is meant to be a very basic starting point for those who
+            are just getting started using DITA in Oxygen XML Editor. Oxygen XML Editor makes it
+            easy to create, edit, manage, and publish DITA content, but it requires at least some
+            basic DITA knowledge. To truly get the most out of Oxygen XML Editor and all of its
+            DITA-related features, you should explore resources in the online DITA community to
+            acquire knowledge of its concepts and uses. </p>
+    </conbody>
+</concept>

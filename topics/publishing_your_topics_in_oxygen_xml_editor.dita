@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="publishing_your_topics_in_oxygen_xml_editor">
+    <title>Publishing Your Topics in Oxygen XML Editor</title>
+    <shortdesc>Step by step: how to make a publishable output out of your content.</shortdesc>
+    <taskbody>
+        <context>
+            <p>As noted previously, in DITA standards you usually do not publish output from an
+                individual topic. Instead, you <xref
+                    href="https://www.oxygenxml.com/doc/versions/27.0/ug-editor/topics/dita-map-transform.html"
+                    format="html" scope="external">create published output</xref> by running a DITA
+                transformation on a map. This collects all the topics that are referenced in the
+                map, organizes them, and produces output in a particular format. By default, Oxygen
+                XML Editor uses the transformations provided by the <wintitle>DITA Open
+                    Toolkit</wintitle> for publishing to various output formats (such as PDF,
+                WebHelp or EPUB). Your organization may have created various custom transformations
+                or modified the built-in <wintitle>DITA Open Toolkit</wintitle> transformations. In
+                either case, Oxygen XML Editor manages them by using transformation scenarios.</p>
+            <p>To publish output for a map:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <uicontrol><image
+                            href="../images/publishing_your_topics_in_oxygen_xml_editor.jpg"
+                            id="image_ld1_n2t_y2c"/>Configure Transformation
+                    Scenario(s)</uicontrol>button in the <wintitle>DITA Maps Manager</wintitle>
+                    view.</cmd>
+                <stepresult>This opens the <wintitle>Configure Transformation
+                    Scenario(s)</wintitle>dialog box.<fig id="fig_ftt_r5q_y2c">
+                        <desc>Configure Transformation Scenarios Dialog Box</desc>
+                        <image href="../images/publishing_your_topics_in_oxygen_xml_editor.png"
+                            id="image_ldm_t4b_1fc"/>
+                    </fig></stepresult>
+            </step>
+            <step>
+                <cmd>Select the appropriate transformation depending on the type of output you
+                    desire.</cmd>
+            </step>
+            <step>
+                <cmd>To change or view the configuration or storage options for a transformation
+                    scenario, select the transformation and click <uicontrol>Edit</uicontrol></cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Apply associated</uicontrol></cmd>
+            </step>
+            
+        </steps>
+        <result id="result_wps_y4b_1fc">Depending on the configuration of the transformation
+            scenario, when the transformation is finished, your output may automatically be opened
+            in the appropriate application.</result>
+    </taskbody>
+</task>

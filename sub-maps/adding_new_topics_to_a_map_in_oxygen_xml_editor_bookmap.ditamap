@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Adding New Topics to a Map in Oxygen XML Editor</mainbooktitle>
+    </booktitle>
+    <chapter href="../stem-topics/adding_new_topics_to_a_map_in_oxygen_xml_editor_stemtopic.dita">
+        <topicref href="../topics/adding_new_topics_to_a_map_in_oxygen_xml_editor.dita"/>
+    </chapter>
+    <reltable>
+        <title>Stem relation</title>
+        <relrow>
+            <relcell>
+                <topicref
+                    href="../stem-topics/adding_new_topics_to_a_map_in_oxygen_xml_editor_stemtopic.dita"
+                    linking="sourceonly"/>
+            </relcell>
+            <relcell>
+                <topicref href="../topics/adding_new_topics_to_a_map_in_oxygen_xml_editor.dita"
+                    linking="targetonly"/>
+            </relcell>
+        </relrow>
+    </reltable>
+</bookmap>

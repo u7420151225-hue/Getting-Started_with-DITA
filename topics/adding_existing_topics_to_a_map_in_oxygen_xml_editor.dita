@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="adding_existing_topics_to_a_map_in_oxygen_xml_editor">
+    <title>Adding Existing Topics to a Map in Oxygen XML Editor</title>
+    <shortdesc>Step by step: you may want to include a topic you have already created to a new DITA
+        map.</shortdesc>
+    <taskbody>
+        <context>
+            <p>There are several ways to <xref
+                    href="https://www.oxygenxml.com/doc/versions/27.0/ug-editor/topics/eppo-add-topic-to-map.html#eppo-add-topic-to-map"
+                    format="html" scope="external">add a topic reference to a map</xref>. Perhaps
+                the easiest method is to add a reference to a topic that is already open in the
+                editor:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the DITA topic in the main editing window.</cmd>
+            </step>
+            <step>
+                <cmd>Right click the <uicontrol>DITA map </uicontrol>in the <wintitle>DITA Maps
+                        Manager </wintitle>view and choose <uicontrol>Reference to the currently
+                        edited file </uicontrol>from the <option>Append Child</option>
+                    <option>Insert Before</option> or <option>Insert After</option> submenu.</cmd>
+                <stepresult>This opens the <wintitle>Insert Reference</wintitle> dialog box with all
+                    the required fields already filled in for you.<fig id="fig_wff_kxm_x2c">
+                        <desc>Insert Reference Dialog Box</desc>
+                        <image
+                            href="../images/adding_existing_topics_to_a_map_in_oxygen_xml_editor.png"
+                            id="image_wy1_lxm_x2c"/>
+                    </fig></stepresult>
+            </step>
+            <step>
+                <cmd>You can fill in additional information in the various tabs in this dialog box
+                    or add it to the map later.</cmd>
+            </step>
+            <step>
+                <cmd>Select <uicontrol>Insert and close</uicontrol> to add a reference to your topic
+                    in the map.</cmd>
+            </step>
+            <step>
+                <cmd>Save the <wintitle>DITA map</wintitle>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

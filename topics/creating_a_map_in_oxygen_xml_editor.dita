@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="creating_a_map_in_oxygen_xml_editor">
+    <title>Creating a map in Oxygen XML Editor</title>
+    <shortdesc>Step by step DITA map creation.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To create a map:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Select <menucascade>
+                        <uicontrol>File</uicontrol>
+                        <uicontrol><image href="../images/creating_topic.png" id="image_vzl_4wh_z2c"
+                            />New</uicontrol>
+                    </menucascade>or click <uicontrol><image href="../images/creating_topic.png"
+                            id="image_vsq_pwh_z2c"/>New</uicontrol> button on the toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Go to <menucascade>
+                        <uicontrol>Framework templates</uicontrol>
+                        <uicontrol>DITA Map</uicontrol>
+                        <uicontrol>map</uicontrol>
+                    </menucascade>and select the type of map you want to create.</cmd>
+            </step>
+            <step>
+                <cmd>Choose whether you want to open the map in the <wintitle>Editor</wintitle> or
+                    in the <wintitle>DITA Maps Manager</wintitle>. Usually, opening it in the
+                        <wintitle>DITA Maps Manager</wintitle> is the best choice. The
+                        <wintitle>DITA Maps Manager</wintitle> presents a view of the <wintitle>DITA
+                        map</wintitle> that is similar to the table of contents.</cmd>
+                <info>
+                    <fig id="fig_tly_rwh_z2c">
+                        <desc>DITA Maps Manager View</desc>
+                        <image href="../images/creating_a_map_in_oxygen_xml_editor.jpg"
+                            id="image_gtl_twh_z2c"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

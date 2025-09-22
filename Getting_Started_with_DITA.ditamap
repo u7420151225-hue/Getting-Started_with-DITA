@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Getting Started with DITA</title>
+    <topicref href="stem-topics/getting_started_with_dita_stemtopic.dita">
+        <topicref href="topics/getting_started_with_dita_concept.dita"/>
+        <topicref href="sub-maps/understanding_dita_topics_bookmap.ditamap" format="ditamap"/>
+        <topicref href="sub-maps/creating_a_dita_topic_in_oxygen_xml_editor_bookmap.ditamap"
+            format="ditamap"/>
+        <topicref href="sub-maps/role_of_maps_bookmap.ditamap" format="ditamap"/>
+        <topicref href="sub-maps/creating_a_map_in_oxygen_xml_editor_bookmap.ditamap"
+            format="ditamap"/>
+        <topicref
+            href="sub-maps/adding_existing_topics_to_a_map_in_oxygen_xml_editor_bookmap.ditamap"
+            format="ditamap"/>
+        <topicref href="sub-maps/adding_new_topics_to_a_map_in_oxygen_xml_editor_bookmap.ditamap"
+            format="ditamap"/>
+        <topicref href="sub-maps/adding_submaps_in_oxygen_xml_editor_bookmap.ditamap"
+            format="ditamap"/>
+        <topicref href="sub-maps/validating_a_map_in_oxygen_xml_editor_bookmap.ditamap"
+            format="ditamap"/>
+        <topicref href="sub-maps/publishing_your_topics_in_oxygen_xml_editor_bookmap.ditamap"
+            format="ditamap"/>
+        <topicref href="sub-maps/dita_projects_bookmap.ditamap" format="ditamap"/>
+        <topicref href="sub-maps/resources_bookmap.ditamap" format="ditamap"/>
+    </topicref>
+    <topicref href="reusables/reusable_content.ditamap" format="ditamap"
+        processing-role="resource-only"/>
+    <reltable>
+        <title>Stem_relation</title>
+        <relrow>
+            <relcell>
+                <topicref href="stem-topics/getting_started_with_dita_stemtopic.dita"
+                    linking="sourceonly"/>
+            </relcell>
+            <relcell>
+                <topicref href="topics/getting_started_with_dita_concept.dita" linking="targetonly"
+                />
+            </relcell>
+        </relrow>
+    </reltable>
+</map>
