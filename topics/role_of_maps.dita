@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="role_of_maps">
     <title>Role of Maps</title>
-    <shortdesc>DITA map is the crucial tool to organize DITA topics for output.</shortdesc>
+    <shortdesc>DITA map is a tool to organize DITA topics for output.</shortdesc>
     <conbody>
         <p>The basic method that DITA uses to express the relationship between topics is through a
                 <xref
