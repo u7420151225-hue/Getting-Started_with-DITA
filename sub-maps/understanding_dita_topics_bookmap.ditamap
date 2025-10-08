@@ -6,6 +6,7 @@
     </booktitle>
     <chapter href="../stem-topics/understanding_dita_topics_stemtopic.dita">
         <topicref href="../topics/understanding_dita_topics.dita"/>
+        <topicref href="../topics/misunderstanding_dita_topics.dita"/>
     </chapter>
     <reltable>
         <title>Stem_relation</title>
