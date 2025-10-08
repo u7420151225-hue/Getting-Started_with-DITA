@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="role_of_maps">
     <title>Role of Maps</title>
-    <shortdesc>DITA map is the crucial tool to organize DITA topics for output.</shortdesc>
+    <shortdesc>DITA map is a tool to organize DITA topics for output.</shortdesc>
     <conbody>
         <p>The basic method that DITA uses to express the relationship between topics is through a
                 <xref
@@ -14,9 +14,9 @@
             to publish individual topics. Output is created from a map and includes all the topics
             referenced by the map.</p>
         <p>A publication is always represented by a single map. For instance, if you are writing a
-            book, you might use a submap to create each chapter and then organize the chapters in a
+            book, you might use a map to create each chapter and then organize the chapters in a
             main root map to create the book. This helps you to manage your content, offers the
-            possibility of reusing submaps, and segregates content to support multiple people
-            working on the same project. </p>
+            possibility of reusing maps, and segregates content to support multiple people working
+            on the same project. </p>
     </conbody>
 </concept>
