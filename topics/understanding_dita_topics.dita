@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="understanding_dita_topics">
     <title>Understanding DITA topics</title>
-    <shortdesc>It is important to understand the role that a DITA topic plays in a DITA
+    <shortdesc>It is crucial to understand the role that a DITA topic plays in a DITA
         project.</shortdesc>
     <conbody>
         <p>A DITA topic is not associated with multiple published documents. It is a separate entity
