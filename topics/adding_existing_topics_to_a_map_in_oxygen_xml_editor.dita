@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="adding_existing_topics_to_a_map_in_oxygen_xml_editor">
-    <title>Adding Existing Topics to a Map in Oxygen XML Editor</title>
+    <title>Adding Non-Existing Topics to a Map in Oxygen XML Editor</title>
     <shortdesc>Step by step: you may want to include a topic you have already created to a new DITA
         map.</shortdesc>
     <taskbody>
